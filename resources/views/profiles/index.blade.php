@@ -9,7 +9,7 @@
         <div class="col-9 pt-5">
             <div class="d-flex justify-content-between align-items-center">
                 <h1>{{ $user->username }}</h1>
-                <a href="#">Add post</a>
+                <a href="{{ route('create') }}">Add post</a>
             </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>153</strong> posts</div>
